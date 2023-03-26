@@ -1,5 +1,5 @@
 import {defineStore} from "pinia";
-import {day, bridegroom, love, bride, calendarList, recordList} from '../../seeting.js'
+import {day, bridegroom, love, bride, calendarList, recordList} from '../../setting.js'
 
 export const useHome = defineStore("home", {
     state() {
