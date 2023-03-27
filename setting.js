@@ -130,8 +130,12 @@ module.exports = {
             desc: '漂亮崽崽'
         }
     ],
+    // tcp备案
     websiteFiling: '晋ICP备2023000118号',
+    // tcp备案链接
     websiteFilingLink: 'https://www.beianx.cn/search/晋ICP备2023000118号' ,
+    // 公安备案
     policeFiling: '晋公网安备 14112402160014号',
+    // 公安备案链接
     policeFilingLink: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=14112402160014'
 }
