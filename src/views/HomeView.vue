@@ -4,6 +4,7 @@ import { useHome } from '@/store/home'
 import { differTime } from '@/utils/ximingx/dayjs'
 import { LazyImg, Waterfall } from 'vue-waterfall-plugin-next'
 import 'vue-waterfall-plugin-next/dist/style.css'
+import WebsiteFiling from '@/components/WebsiteFiling/WebsiteFiling.vue'
 const homeStore = useHome()
 // day
 const day = differTime(homeStore.day)
@@ -18,7 +19,7 @@ const recordList = homeStore.recordList
 </script>
 
 <template>
-  <div class="container">
+  <div class="home-container">
 
     <div class="day">
       <div class="day-now">第 {{ day }} 天</div>
@@ -58,11 +59,13 @@ const recordList = homeStore.recordList
       </template>
     </Waterfall>
 
+    <WebsiteFiling></WebsiteFiling>
+
   </div>
 </template>
 
 <style scoped lang="scss">
-.container {
+.home-container {
   width: 100vw;
   height: 100vh;
   overflow-y: auto;

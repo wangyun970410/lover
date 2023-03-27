@@ -1,3 +1,4 @@
+const {ref} = require('vue')
 module.exports = {
     day: '2022-04-15 09:00:00',
     // 男方信息
@@ -128,5 +129,9 @@ module.exports = {
             time: '2021-07-13 15:20:00',
             desc: '漂亮崽崽'
         }
-    ]
+    ],
+    websiteFiling: '晋ICP备2023000118号',
+    websiteFilingLink: 'https://www.beianx.cn/search/晋ICP备2023000118号' ,
+    policeFiling: '晋公网安备 14112402160014号',
+    policeFilingLink: 'http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=14112402160014'
 }
