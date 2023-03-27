@@ -61,10 +61,10 @@ npm run serve
 
 修改根目录下 setting.js 文件的内容
 
-![img.png](img.png)
+![img.png](./md_assets/img.png)
 
 ### 2. 照片存储
 
 照片存储在 @src/assets
 
-![img_1.png](img_1.png)
+![img_1.png](./md_assets/img_1.png)
